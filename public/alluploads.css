@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 5px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap to the next line if necessary */
+    justify-content: flex-start; /* Aligns items to the start of the container */
+    gap: 15px; /* Adds space between items */
+    padding: 10px;
+    max-width: 100%; /* Ensures the container takes up the full width */
+    margin: 0 auto;
+}
+
+.upload-item {
+    background: #fff;
+    padding: 2px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1 1 400px; /* Allows each item to grow/shrink and sets a minimum width */
+    max-width: 200px; /* Sets a maximum width for each item */
+}
+
+img {
+width:  90%;
+height: 150px;
+border-radius: 8px;
+margin-bottom: 0px;
+
+}
+.content{
+    display: flex;
+   flex-direction: column;
+    justify-content: flex-start; /* Aligns items to the start of the container */
+    padding: 1px;
+    margin:3px;
+}
+.description {
+    margin-top: 2px;
+    margin-bottom: 1px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.price {
+    font-size: 14px;
+    color: green;
+    margin-top: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,65 @@
+/* Global Styles */
+
+
+
+footer {
+    background-color: #05696b;
+    color: #fff;
+    text-align: center;
+	max-width: 1200px;
+
+   
+}
+
+
+
+/*From main*/
+body {
+    width: 100%;
+	background-color: #eeeeee;
+	font: 20px  'Helvetica', Arial, sans-serif;
+	margin: 10px;
+	padding: 5px 0 0 0;
+	text-align: center;
+	-webkit-text-size-adjust: none;
+	color: #a848ec;
+}
+
+form {
+	margin-bottom: 1px;
+}
+
+
+
+.wrapper {
+	border-radius: 6px;
+max-width: 1200px;
+	margin: 0 auto 5px auto;
+	text-align: left;
+	font: 14px/20px 'Helvetica', Arial, sans-serif;
+}
+
+.templateBody {
+   
+	background-color: #ffffff;
+	line-height: 150%;
+	font-family: Helvetica;
+	font-size: 14px;
+	padding: 20px;
+	border-radius: 6px;
+}
+
+@media (pointer:none), (pointer:coarse) {
+	body {
+		padding: 12px 0 0 0;
+	}
+	
+	.button {
+		text-align: right;
+	}
+	
+	.multibutton {
+		grid-template-columns: auto;
+		justify-content: end;
+	}
+}

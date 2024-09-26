@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uploads</title>
+    <link href="/upload.css" rel="stylesheet"> <!-- Ensure the correct path for CSS -->
+</head>
+<body>
+    
+   <h1>Files Uploaded</h1> 
+   <div class="button">
+       <button><a href="/upload">Add Files</a></button> 
+       <button><a href="/uploads">View Uploads</a></button>
+   </div>
+
+   <div class="container">
+       <!-- Ensure filePath is correctly set to an accessible URL -->
+       <img src="/uploads/<%= filePath %>"  alt="Uploaded Image" style="max-width: 100%; height: auto;">
+       <p class="description"><%= description %></p>
+       <p class="price">Price: KSH <%= price %></p>
+       <p class="location"><%= location || 'Location not specified' %></p> 
+   </div>
+
+</body>
+</html>
